@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "allowJs": true,
+        "checkJs": true,
+        "outDir": "/tmp/footest",
+        "types": ["node"],
+        "module": "commonjs",
+        "target": "es2015"
+    },
+    "include": [
+        "test/*.js",
+        "test/*.ts",
+        "test/**/*.js",
+        "test/**/*.ts"
+    ]
+}
